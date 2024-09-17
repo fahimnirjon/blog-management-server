@@ -156,7 +156,7 @@ async function run() {
       console.log(result);
       res.send(result);
     });
-   
+  //  blog routes to database
     const blogCollection = client.db("blogWebDB").collection("blogPosts");
     // get all blogs
     app.get("/blogposts", async (req, res) => {
