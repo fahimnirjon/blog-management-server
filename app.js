@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 });
 // health
 app.get("/health", (req, res) => {
-  res.status(200).send("Helth is Good");
+  res.status(200).send("Health is Good");
 });
 // Database connection
 
