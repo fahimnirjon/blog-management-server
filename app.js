@@ -36,7 +36,7 @@ const verifyToken = (req, res, next) => {
 
 // Home and health route
 app.get("/", (req, res) => {
-  res.send("Hello doctor");
+  res.send("Hello doctor. How Are You??");
 });
 // health
 app.get("/health", (req, res) => {
