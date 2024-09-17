@@ -13,7 +13,7 @@ app.use(
        "https://blog-management-84ed9.web.app",
        'https://blog-management-84ed9.firebaseapp.com'
     ],
-    credentials: true,
+    credentials: false,
   })
 );
 app.use(express.json());
